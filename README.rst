@@ -24,7 +24,7 @@
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+В задачах декодирования сигналов входные данные представляют собой одномерные или многомерные временные ряды. Применение методов, основанных на нейронных обыкновенных дифференциальных уравнениях, позволяет работать с временными рядами как с непрерывными по времени. Недавние исследования показывают, что подобные методы могут давать заметно более точные по метрикам качества результаты в задачах классификации сигналов, чем методы, работающие с дискретным представлением временных рядов. В данной работе рассматриваются различные методы, основанные на непрерывном представлении временных рядов, в приложении к задаче классификации электроэнцефалограмм (ЭЭГ) и аппроксимации исходного сигнала. В предложенном подходе к построению модели машинного обучения предполагается работа с функциональным пространством сигнала вместо его дискретного представления и использование пространства параметров аппроксимируемой функции в качестве признакового. Основной результат работы – построение обратимого потока и подбор оптимальных размерностей на каждом слое нейросети. 
 
 Research publications
 ===============================
@@ -37,4 +37,4 @@ Presentations at conferences on the topic of research
 Software modules developed as part of the study
 ======================================================
 1. A python package *mylib* with all implementation `here <https://github.com/intsystems/ProjectTemplate/tree/master/src>`_.
-2. A code with all experiment visualisation `here <https://github.comintsystems/ProjectTemplate/blob/master/code/main.ipynb>`_. Can use `colab <http://colab.research.google.com/github/intsystems/ProjectTemplate/blob/master/code/main.ipynb>`_.
+2. A code with all experiment visualisation `here <https://github.comintsystems/ProjectTemplate/blob/master/code/main.ipynb>`_. Can use `colab <http://colab.research.google.com/github/intsystems/ProjectTemplate/blob/master/code/main.ipynb>`_.)
